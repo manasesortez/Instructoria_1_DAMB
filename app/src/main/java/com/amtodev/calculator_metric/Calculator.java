@@ -24,7 +24,7 @@ public class Calculator extends AppCompatActivity {
             "Metros a Pies",
             "Pies a Metros"};
     Spinner objSpinner;
-    DecimalFormat format = new DecimalFormat("#.000");
+    DecimalFormat format = new DecimalFormat("#.00");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
