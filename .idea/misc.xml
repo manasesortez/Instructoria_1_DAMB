@@ -7,8 +7,11 @@
         <entry key="app/src/main/res/drawable/button.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/card_background.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/edit_text_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_android.xml" value="0.15833333333333333" />
         <entry key="app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_calculator.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_centigrade.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_cubes.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/icon_calculator.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/spinner.xml" value="0.1685185185185185" />

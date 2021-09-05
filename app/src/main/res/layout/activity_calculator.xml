@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/seguisb"
-        android:text="Ingresa la Cantidad que Quieres Calcular"
+        android:text="Ingresa el Ejercicio que Quiere ver"
         android:textColor="#fff"
         android:textSize="30px"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -68,126 +68,6 @@
             android:layout_marginEnd="0dp"
             android:layout_marginRight="0dp"
             android:layout_marginBottom="0dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/segoebold"
-                android:text="Cantidad:"
-                android:textColor="#0E284D"
-                android:textSize="32px"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.079"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.042"
-                tools:ignore="HardcodedText" />
-
-            <EditText
-                android:id="@+id/txtCantidad"
-                android:layout_width="313dp"
-                android:layout_height="41dp"
-                android:layout_below="@+id/textView"
-                android:background="@drawable/edit_text_background"
-                android:drawableEnd="@drawable/ic_baseline_check_24"
-                android:drawableTint="#0A0F30"
-                android:ems="10"
-                android:fontFamily="@font/segoebold"
-                android:inputType="phone"
-                android:paddingLeft="26dp"
-                android:paddingRight="26dp"
-                android:textColor="#0A0F30"
-                android:textColorHint="#0A0F30"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.295"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.097"
-                tools:ignore="Autofill,HardcodedText,LabelFor,RtlCompat,UnknownIdInLayout" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/segoebold"
-                android:text="Tipo de Conversion:"
-                android:textColor="#0E284D"
-                android:textSize="32px"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.097"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.181"
-                tools:ignore="HardcodedText" />
-
-            <Spinner
-                android:id="@+id/listaConversion"
-                android:layout_width="313dp"
-                android:layout_height="41dp"
-                android:popupBackground="#ededed"
-                android:layout_below="@+id/textView2"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="57px"
-                android:layout_marginRight="100px"
-                android:background="@drawable/edit_text_background"
-                android:outlineAmbientShadowColor="#fff"
-                android:spinnerMode="dropdown"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.285"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.236"
-                tools:ignore="RtlHardcoded,UnknownId" />
-
-            <Button
-                android:id="@+id/btnCalcular"
-                android:layout_width="211dp"
-                android:layout_height="47dp"
-                android:layout_below="@+id/listaConversion"
-                android:background="@drawable/button"
-                android:text="Calcular"
-                android:textColor="#fff"
-                android:textSize="40px"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.336"
-                tools:ignore="HardcodedText" />
-
-            <TextView
-                android:layout_width="125dp"
-                android:layout_height="28dp"
-                android:fontFamily="@font/segoebold"
-                android:text="Resultado"
-                android:textColor="#0E284D"
-                android:textSize="35px"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.552"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.446"
-                tools:ignore="HardcodedText" />
-
-            <TextView
-                android:id="@+id/lblResultados"
-                android:layout_width="333dp"
-                android:layout_height="34dp"
-                android:background="@drawable/edit_text_background"
-                android:fontFamily="@font/segoebold"
-                android:padding="5px"
-                android:textColor="#101A51"
-                android:textSize="30px"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:ignore="HardcodedText" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
