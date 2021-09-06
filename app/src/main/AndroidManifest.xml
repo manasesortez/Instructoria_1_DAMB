@@ -5,12 +5,36 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_calculator"
+        android:icon="@drawable/ic_android"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/ic_launcher_foreground"
+        android:roundIcon="@drawable/ic_android"
         android:supportsRtl="true"
         android:theme="@style/Theme.Calculator_metric"
         tools:ignore="AllowBackup">
+        <activity
+            android:name=".acelerometro"
+            android:theme="@style/calculator2"
+            android:exported="true" />
+        <activity
+            android:name=".numberMayor"
+            android:theme="@style/calculator2"
+            android:exported="true" />
+        <activity
+            android:name=".Temperatura"
+            android:theme="@style/calculator2"
+            android:exported="true" />
+        <activity
+            android:name=".calculadora"
+            android:theme="@style/calculator2"
+            android:exported="true" />
+        <activity
+            android:name=".informacion"
+            android:theme="@style/calculator2"
+            android:exported="true" />
+        <activity
+            android:name=".notificacion"
+            android:theme="@style/calculator2"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -23,8 +47,7 @@
         </activity>
         <activity
             android:name=".Calculator"
-            android:theme="@style/calculator2"></activity>
-
+            android:theme="@style/calculator2" />
     </application>
 
 </manifest>
